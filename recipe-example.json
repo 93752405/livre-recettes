@@ -1,0 +1,64 @@
+{
+  "_commentaire": "Format standardisé d'une recette pour Mon livre de recettes.",
+  "_version": "1.0",
+
+  "id": 1001,
+  "nom": "Poulet tikka masala",
+  "description": "Un curry crémeux et parfumé — poulet mariné, sauce tomate-épices et riz basmati.",
+
+  "categorie": "souper",
+  "_categorie_valeurs": ["déjeuner","entrée","soupe","salade","souper","collation","dessert","accompagnement","boisson"],
+
+  "proteine": "poulet",
+  "_proteine_valeurs": ["poulet","boeuf","porc","poisson","fruits de mer","végétarien","végétalien","oeufs","tofu"],
+
+  "saison": "toutes saisons",
+  "_saison_valeurs": ["printemps","été","automne","hiver","toutes saisons"],
+
+  "prepMin": 20,
+  "cuissonMin": 30,
+  "portions": 4,
+
+  "statut": "À essayer",
+  "_statut_valeurs": ["À essayer","Testée","Approuvée","Favorite"],
+
+  "etoiles": 0,
+  "_etoiles_note": "Nombre entier de 0 à 5 (0 = non évalué)",
+
+  "tags": ["indien","curry","épicé","comfort food","crémeux"],
+  "_tags_note": "Mots-clés libres pour la recherche, séparés par des virgules",
+
+  "ingredients": [
+    "700g de poitrines de poulet en cubes",
+    "1 tasse de yogourt nature",
+    "2 c. à soupe de garam masala",
+    "1 c. à thé de curcuma",
+    "1 c. à thé de cumin",
+    "3 gousses d'ail écrasées",
+    "1 c. à soupe de gingembre râpé",
+    "1 boîte (796 ml) de tomates concassées",
+    "1 tasse de crème 35%",
+    "2 c. à soupe d'huile végétale",
+    "Sel, poivre",
+    "Coriandre fraîche pour garnir",
+    "2 tasses de riz basmati"
+  ],
+  "_ingredients_note": "1 ingrédient par ligne / élément de tableau",
+
+  "etapes": [
+    "Mélanger yogourt, garam masala, curcuma, cumin, ail et gingembre dans un bol. Ajouter le poulet et mariner 30 min minimum au réfrigérateur.",
+    "Chauffer l'huile dans une grande poêle à feu vif. Saisir le poulet mariné 4–5 min jusqu'à légère coloration. Réserver.",
+    "Dans la même poêle, verser les tomates concassées et laisser mijoter 5 min.",
+    "Ajouter la crème et le reste du garam masala. Mélanger et laisser réduire 5 min à feu moyen.",
+    "Remettre le poulet dans la sauce. Cuire encore 10 min à feu doux jusqu'à cuisson complète.",
+    "Pendant ce temps, cuire le riz basmati selon les instructions.",
+    "Servir sur riz, garnir de coriandre fraîche."
+  ],
+  "_etapes_note": "1 étape par élément de tableau, dans l'ordre de préparation",
+
+  "notes": "Doubler la recette : elle se congèle très bien. Remplacer la crème par du lait de coco pour une version sans lactose.",
+  "_notes_note": "Conseils, variantes, astuces — champ optionnel",
+
+  "source": "Adapté de RecettesduQc.com",
+  "_source_note": "Origine de la recette — champ optionnel"
+}
